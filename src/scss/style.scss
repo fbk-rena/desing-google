@@ -5,9 +5,12 @@
 
 .header {
     margin-top: 5%;
-    text-align: center;
+    text-align: $centro;
     .logo-nav {
         width: 85%;
+    }
+    .search-nav{
+        justify-content: flex-end;
     }
 }
 
@@ -32,24 +35,7 @@
     }
 }
 
-.titulo {
-    @include titulos();
-    font-size: $titulos-tamano;
-}
-
-.subtitulo {
-    @extend .titulo;
-    padding-top: 25px;
-    font-size: $subtitulos-tamano;
-}
-
-.subtitulo2 {
-    @extend .titulo;
-    padding-bottom: 10px;
-    font-size: $subtitulos2-tamano;
-}
-
-.texto-corrido {
+.textos {
     @include texto(0 0 5% 0);
 }
 
@@ -70,8 +56,8 @@
     margin: 6% 0 4% 0;
 }
 
-.tam-img {
-    width: 100%;
+.imagen {
+    max-width: 100%;
 }
 
 #newsfeeed {

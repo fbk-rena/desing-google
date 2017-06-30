@@ -96,6 +96,8 @@ col-12 {
   text-align: center; }
   .header .logo-nav {
     width: 85%; }
+  .header .search-nav {
+    justify-content: flex-end; }
 
 .menu {
   text-align: center; }
@@ -120,20 +122,7 @@ col-12 {
       color: #414549;
       text-decoration: none; }
 
-.titulo, .subtitulo, .subtitulo2 {
-  font-family: "Roboto", sans-serif;
-  color: #424242;
-  font-size: 30px; }
-
-.subtitulo {
-  padding-top: 25px;
-  font-size: 18px; }
-
-.subtitulo2 {
-  padding-bottom: 10px;
-  font-size: 24px; }
-
-.texto-corrido {
+.textos {
   font-family: "Roboto", sans-serif;
   color: #414549;
   line-height: 1.5em;
@@ -156,8 +145,8 @@ col-12 {
   border: 2px solid #4285f4;
   margin: 6% 0 4% 0; }
 
-.tam-img {
-  width: 100%; }
+.imagen {
+  max-width: 100%; }
 
 #newsfeeed .singUp .link {
   font-size: 15px; }
