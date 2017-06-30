@@ -1,0 +1,17 @@
+@function anchoCol ($columnas){
+    @return percentage($columnas/12)
+}
+@for $i from 1 to 13{
+    col-#{$i}{
+        width: anchoCol($i);
+    }
+}
+//Offset
+@function offset($columnsOffset){
+  @return percentage(($columnsOffset/12));
+}
+@for $columnaOff from 1 to 13 {
+  .offset-#{$columnaOff} {
+    margin-left: anchoCol($columnaOff);
+  }
+}

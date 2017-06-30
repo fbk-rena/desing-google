@@ -1,4 +1,14 @@
-Gris Oscuro Títulos : #424242
-Gris Claro fecha: #5f6368
-Gris Texto : #414549
-Azul : #4285f4
+//colores
+$gris-titulos : #424242;//$titulos-gris
+$gris-fecha: #5f6368;//$fecha-grisclaro
+$gris-texto : #414549;//$texto-gris
+$azul : #4285f4;//$elemento-azu
+//Fuentes
+$fuente-titulos: 'ProductSans';//$fuente-titulo
+$fuente-principal: 'Roboto', sans-serif;//$fuente-principal
+$fuente-fechas: 'Roboto Mono', monospace;//$fuente-fecha
+//tamanos de fuentes
+$titulos-tamano: 30px;
+$subtitulos-tamano: 18px;
+$subtitulos2-tamano: 24px;
+$texto-tamano: 15px;
